@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-poppins;
+}
+
+body{
+  font-size: 18px;
+  &::-webkit-scrollbar{
+    display: none;
+    
+  }
+}
+.body-scroll{
+  overflow-y: hidden;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+input{
+  outline: none;
+}
+textarea{
+  outline: none;
+}

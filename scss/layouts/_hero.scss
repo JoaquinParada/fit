@@ -1,0 +1,78 @@
+
+#hero{
+  background-image: url("../assets/imagenes/zapatilla-hero-v2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;  
+  height: 100vh;
+  width: 100%;
+  .hero-darklayer{
+    background-color: rgba(0, 0, 0, 0.461);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    color: $color-blanco;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    gap: 30px;
+    overflow: hidden;
+    position: relative;
+    .hero-title{
+      font-size: 60px;
+      z-index: 500; 
+      
+      b{
+        color: $color-celeste;
+      }     
+
+    }     
+    .hero-text{
+      width: 50%;
+      color: rgb(236, 236, 236);
+      text-align: center;
+    }     
+     
+    .hero-img-container{
+      position: absolute;
+
+      height: 100%;
+      display: none;
+      justify-content: flex-end;     
+      opacity: 1;
+      top: 35%;
+      right: 0;
+      z-index: 1;
+           
+      img{
+        height: 500px;
+        width: 500px;
+        
+
+      }
+
+    }
+  }
+}
+
+
+@media screen and (min-width: 700px) {
+  #hero{
+    height: 600px;
+    .hero-darklayer{
+      align-items: flex-start;
+      padding-left: 100px;
+      .hero-text{
+        width: 300px;
+        text-align: start;
+      }
+      .hero-img-container{
+        display: flex;
+        
+      }
+    }
+
+  }
+  
+  
+}

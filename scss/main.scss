@@ -1,0 +1,14 @@
+@import "./base/typography";
+@import "./base/reset";
+@import "./sass-utils/variables";
+@import "./components/buttons";
+
+
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./components/filtros";
+@import "./layouts/products";
+@import "./layouts/cart";
+@import "./layouts/contact";
+@import "./layouts/footer";
+

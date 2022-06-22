@@ -1,0 +1,118 @@
+[
+  {
+    "nombre": "adidas classic",
+    "precio": 700,
+    "imagen": "adidas-classic-h.png",
+    "sexo": "h"
+  },
+  {
+    "nombre": "adidas hera",
+    "precio": 1300,
+    "imagen": "adidas-hera-m.png",
+    "sexo": "m"
+  },
+  {
+    "nombre": "adidas raindrop",
+    "precio": 1450,
+    "imagen": "adidas-raindrop-m.png",
+    "sexo": "m"
+  },
+  {
+    "nombre": "adidas robust",
+    "precio": 2100,
+    "imagen": "adidas-robust-h.png",
+    "sexo": "h"
+  },
+{
+    "nombre": "adidas soldier",
+    "precio": 2500,
+    "imagen": "adidas-soldier-h.png",
+    "sexo": "h"
+  },
+{
+    "nombre": "adidas valkiria",
+    "precio": 2400,
+    "imagen": "adidas-valkiria-m.png",
+    "sexo": "m"
+  },
+{
+    "nombre": "nike air max97",
+    "precio": 3000,
+    "imagen": "nike-air-max-97-m.png",
+    "sexo": "m"
+  },
+{
+    "nombre": "nike air mix",
+    "precio": 1900,
+    "imagen": "nike-air-mix-m.png",
+    "sexo": "m"
+  },
+{
+    "nombre": "nike air pegasus",
+    "precio": 1750,
+    "imagen": "nike-air-pegasus-h.png",
+    "sexo": "h"
+  },
+{
+    "nombre": "nike air pegasus",
+    "precio": 4500,
+    "imagen": "nike-air-pegasus-m.png",
+    "sexo": "m"
+  },
+{
+    "nombre": "nike kaiman",
+    "precio": 5000,
+    "imagen": "nike-kaiman-m.png",
+    "sexo": "m"
+  },
+{
+    "nombre": "nike fly",
+    "precio": 6600,
+    "imagen": "nike-fly-h.png",
+    "sexo": "h"
+  },
+{
+    "nombre": "nike ultron",
+    "precio": 5500,
+    "imagen": "nike-ultron-h.png",
+    "sexo": "h"
+  },
+{
+    "nombre": "rabook speed",
+    "precio": 5700,
+    "imagen": "rabook-speed-m.png",
+    "sexo": "m"
+  },
+{
+    "nombre": "rebook atenea",
+    "precio": 8000,
+    "imagen": "rebook-atenea-m.png",
+    "sexo": "m"
+  },
+{
+    "nombre": "rebook nano",
+    "precio": 7400,
+    "imagen": "rebook-nano-h.png",
+    "sexo": "h"
+  },
+{
+    "nombre": "rebook spotlight",
+    "precio": 4200,
+    "imagen": "rebook-spotlight-h.png",
+    "sexo": "h"
+  },
+{
+    "nombre": "rebook snatch",
+    "precio": 9000,
+    "imagen": "rebook-snatch-h.png",
+    "sexo": "h"
+  }
+]
+
+
+
+
+
+
+
+

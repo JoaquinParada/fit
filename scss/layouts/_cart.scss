@@ -1,0 +1,187 @@
+.icon-cart-container{
+  position: fixed;
+    right: 10px;
+    top: 80px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid $color-celeste;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    z-index: 2000;
+    cursor: pointer;
+    .icono-cart-numero{
+      height: 18px;
+      width: 18px;
+      border-radius: 50%;
+      background-color: rgb(229, 91, 91);
+      color: $color-blanco;
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      font-size: 10px;
+      display: none;    
+      justify-content: center;
+      align-items: center;
+    }    
+    .icono-cart{     
+      width: 20px;
+      height: 20px;     
+    }
+}
+
+
+
+.cart-section{
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 10000;
+  background: linear-gradient(180deg, rgba(221,176,255,0.8886905103838411) 1%, #2cc0ffde 55%);
+  padding: 10px 5px;
+  display: none;
+  justify-content: center;
+  
+  .cart{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    padding: 30px 3px;
+    flex-direction: column;    
+    align-items: center;
+    gap: 40px;
+    .close-cart{
+      cursor: pointer; 
+      color: black;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 40px;
+      left: 40px;
+    }
+    .remove-all-items{
+      position: absolute;
+      top: 40px;
+      right: 40px;
+    }
+    .card-item-container{
+      background-color: $color-gris-claro;
+      width: 100%;
+      height: 80%;
+      overflow-y: scroll;      
+      border-radius: 25px;
+      padding: 30px 5px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border: 2px solid $color-gris-claro;
+      &::-webkit-scrollbar{
+        display: none;
+      }
+      .item-card{
+        background-color: $color-blanco;
+        height: 120px;
+        border-radius: 25px;
+        display: flex;
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+        .item-img-container{
+          height: 80px;
+          width: 80px;
+          border-radius: 50%;
+          overflow: hidden;
+          img{
+            width: 80px;
+            height: 80px;
+          }
+        }
+        .item-card-info{
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          width: 125px;
+          justify-content: flex-start;
+          align-items: center;
+          .item-name{
+            font-size: 13px;
+            color: $color-celeste;
+          }
+          .item-price{
+            font-size: 15px;
+            color: $color-azul;
+            font-weight: 600;
+          }
+        }
+        .item-card-count{
+          font-size: 15px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          .restar{          
+            background-color: white; 
+            color: $color-celeste;         
+          }               
+        }
+        .remove-item{
+          height: 25px;
+          width: 25px;          
+          background-color: rgb(205, 99, 99);
+          color: white; 
+          &:hover{
+            background-color: transparent;
+            color: rgb(205, 99, 99);
+          }        
+        }
+    
+
+      }
+    }
+    .cart-checkout-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 50px;
+      width: 100%;
+      height: 100px;
+      background-color: $color-gris-claro;
+      border-radius: 25px;
+      p{
+        font-size: 23px;
+        color: $color-azul;
+        font-weight: 600;
+      }
+    }
+    
+  }
+}
+
+
+.cart-section--active{
+  display: flex;
+}
+
+
+@media screen and (min-width:1000px) {
+  .cart-section{
+    .cart{
+      width: 60%;
+    }
+  }
+  
+
+  
+}
+
+
+.swal2-container {
+  z-index: 20000 !important;
+}
