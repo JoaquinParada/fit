@@ -15,7 +15,7 @@ function displayProducts (productos){
     `
       <div class="card">
         <div class="card-img">
-          <img class="img-prod" src="../assets/imagenes/img-prod2/${el["imagen"]}" alt="${el["nombre"]}" loading="lazy">
+          <img class="img-prod" src="./assets/imagenes/img-prod/${el["imagen"]}" alt="${el["nombre"]}" loading="lazy">
         </div>
         <div class="card-info">
           <h3 class="card-title">${el["nombre"]}</h3>
