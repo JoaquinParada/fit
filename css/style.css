@@ -232,8 +232,8 @@ header .menu-container .menu-nav--active {
   width: 90%;
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  padding-top: 100px;
+  gap: 20px;
+  padding-top: 45px;
 }
 .filtro-container .filtro .close-filtro {
   position: absolute;
