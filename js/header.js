@@ -44,3 +44,24 @@ menuAhref.forEach(el =>{
 
   })
 })
+
+
+mouseOverEnDesktop();
+
+window.addEventListener('resize', mouseOverEnDesktop);
+
+function mouseOverEnDesktop(){
+  if(window.innerWidth > 630){
+    menuAhref.forEach(el=>{
+      el.classList.add("hover-desktop")
+      })
+  }
+  else{
+    menuAhref.forEach(el=>{
+      el.classList.remove("hover-desktop")
+      })    
+  }
+  
+}
+
+

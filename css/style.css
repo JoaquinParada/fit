@@ -132,6 +132,10 @@ header .menu-container .menu-nav--active {
   right: 0px;
 }
 
+.hover-desktop:hover {
+  color: #2CC0FF;
+}
+
 @media screen and (min-width: 600px) {
   header .menu-container .hamburguer-icon {
     display: none;

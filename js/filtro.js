@@ -7,25 +7,20 @@ let btnResetFiltro = document.querySelector(".reset-filtro");
 
 btnFiltro.addEventListener("click", ()=>{
   abrirCerrarFiltro();
-  let clase = "abrir-filtro--active";
-  noPermitirScrollDelBody(filtroContainer, clase);
 });
 
 btnClose.addEventListener("click", ()=>{
   abrirCerrarFiltro();
-  let clase = "abrir-filtro--active";
-  noPermitirScrollDelBody(filtroContainer, clase);
 });
 
 
 function abrirCerrarFiltro(){
   filtroContainer.classList.toggle("abrir-filtro--active"); 
+  let clase = "abrir-filtro--active";
+  noPermitirScrollDelBody(filtroContainer, clase);
   
 }
-
-
 btnAplicarFiltros.addEventListener("click", aplicarFiltrosalHTML)
-
 
 function aplicarFiltrosalHTML(e){  
   let genero = document.querySelectorAll(".input-sexo");
@@ -54,6 +49,7 @@ function aplicarFiltrosalHTML(e){
         .then(data =>filtrarXPrecio(data,precio))
     }
   }
+  
 }
 
 
@@ -91,7 +87,6 @@ function resetearLosFiltros(){
       el.checked = false;
     }
   }
-
   return fetch('./js/api-products.json')
   .then(res => res.json())
   .then(data => {

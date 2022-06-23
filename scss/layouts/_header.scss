@@ -48,7 +48,11 @@ header{
     
   }
 }
-
+.hover-desktop{
+  &:hover{
+    color: $color-celeste;
+  }
+}
 
 
 
