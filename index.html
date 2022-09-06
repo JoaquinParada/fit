@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- tipografia letras -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-<!-- iconos -->
-<script src="https://kit.fontawesome.com/3ba37dafd0.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <!-- iconos -->
+  <script src="https://kit.fontawesome.com/3ba37dafd0.js" crossorigin="anonymous"></script>
   <!-- link a css -->
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.css" />
   <title>Fit</title>
 </head>
 
-<body class="body">  
+<body class="body">
   <header class="header">
     <h2>Fit</h2>
     <div class="menu-container">
@@ -28,18 +29,22 @@
         </ul>
       </nav>
     </div>
-  </header>  
+  </header>
   <main>
     <section id="hero">
       <div class="hero-darklayer">
-        <h1 class="hero-title">somos <br><b>fit</b></h1>
-        <p class="hero-text">Colaboramos en el diseno de indumentaria deportiva para superar barreras</p>
-        <button class="button-style hero-btn-style"><a href="#productos">Productos</a></button>
+        <h1 class="hero-title">somos <br /><b>fit</b></h1>
+        <p class="hero-text">
+          Colaboramos en el diseno de indumentaria deportiva para superar
+          barreras
+        </p>
+        <button class="button-style hero-btn-style">
+          <a href="#productos">Productos</a>
+        </button>
         <div class="hero-img-container">
-          <img src="./assets/imagenes/Vector-home.svg" alt="">      
+          <img src="./assets/imagenes/Vector-home.svg" alt="" />
         </div>
-      </div>  
-      
+      </div>
     </section>
 
     <section id="productos">
@@ -55,54 +60,52 @@
           <div class="radio-container">
             <label for="sexo" id="sexo">Sexo</label>
             <div class="input-container">
-              <input type="radio" name="sexo" class="input-sexo" value="m">Femenino
+              <input type="radio" name="sexo" class="input-sexo" value="m" />Femenino
             </div>
             <div class="input-container">
-              <input type="radio" name="sexo" class="input-sexo" value="h">Masculino
+              <input type="radio" name="sexo" class="input-sexo" value="h" />Masculino
             </div>
           </div>
           <div class="radio-container">
             <label for="precio">Precio</label>
             <div class="input-container">
-              <input type="radio" name="precio" class="input-precio" value="1000">Menor a 1000 $
+              <input type="radio" name="precio" class="input-precio" value="1000" />Menor a 1000 $
             </div>
             <div class="input-container">
-              <input type="radio" name="precio" class="input-precio" value="3000">Menor a 3000 $
+              <input type="radio" name="precio" class="input-precio" value="3000" />Menor a 3000 $
             </div>
             <div class="input-container">
-              <input type="radio" name="precio" class="input-precio" value="5000">Menor a 5000 $
+              <input type="radio" name="precio" class="input-precio" value="5000" />Menor a 5000 $
             </div>
             <div class="input-container">
-              <input type="radio" name="precio" class="input-precio" value="7500">Menor a 7500 $
+              <input type="radio" name="precio" class="input-precio" value="7500" />Menor a 7500 $
             </div>
             <div class="input-container">
-              <input type="radio" name="precio" class="input-precio" value="10000">Menor a 10000 $
+              <input type="radio" name="precio" class="input-precio" value="10000" />Menor a 10000 $
             </div>
           </div>
-          
-              
+
           <div class="button-container">
             <button class="button-style reset-filtro">Reset</button>
             <button class="button-style btn-apply">Apply</button>
           </div>
         </div>
       </div>
-      
-      <div class="card-container">         
-      </div>
+
+      <div class="card-container"></div>
     </section>
     <!-- icono del carrito -->
-    <div class=icon-cart-container>
+    <div class="icon-cart-container">
       <div class="icono-cart-numero">0</div>
-      <img class="icono-cart" src="./assets/imagenes/icon-cart.svg" alt="">
+      <img class="icono-cart" src="./assets/imagenes/icon-cart.svg" alt="" />
     </div>
     <section class="cart-section">
       <div class="cart">
         <h2>My Cart</h2>
-        <img class="close-cart" src="./assets/imagenes/arrow.svg">
-        <img class="remove-all-items" src="./assets/imagenes/icon-trashsvg.svg">        
+        <img class="close-cart" src="./assets/imagenes/arrow.svg" />
+        <img class="remove-all-items" src="./assets/imagenes/icon-trashsvg.svg" />
         <div class="card-item-container">
-        <!--
+          <!--
           <div class="item-card">
             <div class="item-img-container">
               <img src="./assets/imagenes/zapatilla-prod.png" alt="">              
@@ -118,15 +121,13 @@
             </div>
             <div class="remove-item round-btn-style">X</div>
           </div>
-        -->                  
+        -->
         </div>
         <div class="cart-checkout-container">
           <p class="total">0 $</p>
           <button class="button-style btn-check-out">Check out</button>
         </div>
       </div>
-     
-
     </section>
 
     <section id="contacto">
@@ -134,44 +135,44 @@
       <div id="contacto-container">
         <div class="text-container">
           <p>Te respondemos tus dudas, contactanos</p>
-          <img src="./assets/imagenes/flecha.png" alt="" class="img-flecha">
-        </div>      
+          <img src="./assets/imagenes/flecha.png" alt="" class="img-flecha" />
+        </div>
         <form action="" class="form" id="form" onsubmit="return false;">
           <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" placeholder="Nombre" id="input-nombre"autocomplete="off" required>
+          <input type="text" name="nombre" placeholder="Nombre" id="input-nombre" autocomplete="off" required />
           <label for="email">Email</label>
-          <input type="email" name="email" id="input-mail" placeholder="Email" autocomplete="off" required>
+          <input type="email" name="email" id="input-mail" placeholder="Email" autocomplete="off" required />
           <label for="mensaje">Mensaje</label>
-          <textarea name="mensaje" id="textarea" cols="30" rows="10" ></textarea>
+          <textarea name="mensaje" id="textarea" cols="30" rows="10"></textarea>
           <div class="btnform-container">
             <button class="button-style submit">ENVIAR</button>
-          </div>      
-          
+          </div>
         </form>
-
-      </div>     
+      </div>
     </section>
-
   </main>
   <footer id="footer">
     <div class="footer-brand-logo-container">
       <h3>Fit</h3>
-      <p>Fit es una pagina de prueba, todo los items que ven no se pueden comprar al menos no en esta tienda</p>
+      <p>
+        Fit es una pagina de prueba, todo los items que ven no se pueden
+        comprar al menos no en esta tienda
+      </p>
     </div>
     <div class="footer-info-container">
       <div class="footer-info-row">
         <h4>Servicio</h4>
         <ul>
           <li><a href="">Home</a></li>
-        <li><a href="">Productos</a></li>
-        <li><a href="">Contacto</a></li> 
-        </ul>       
+          <li><a href="">Productos</a></li>
+          <li><a href="">Contacto</a></li>
+        </ul>
       </div>
       <div class="footer-info-row">
         <h4>Compania</h4>
         <ul>
-          <li><a href="">Terminos de uso</a></li> 
-        </ul>     
+          <li><a href="">Terminos de uso</a></li>
+        </ul>
       </div>
       <div class="footer-info-row">
         <h4>Redes</h4>
@@ -180,21 +181,18 @@
           <li><a href="">github</a></li>
         </ul>
       </div>
-      
     </div>
-
   </footer>
 
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  
+
   <script src="./js/function.js"></script>
 
-  <script src="./js/header.js"></script> 
+  <script src="./js/header.js"></script>
   <script src="./js/cart.js"></script>
   <script src="./js/script.js"></script>
   <script src="./js/filtro.js"></script>
   <script src="./js/contacto.js"></script>
- 
-
 </body>
+
 </html>

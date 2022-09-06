@@ -1,5 +1,5 @@
-#contacto{
-  display: flex;  
+#contacto {
+  display: flex;
   height: 100vh;
   width: 100%;
   background-image: url(../assets/imagenes/img-zapa-contacto.png);
@@ -10,16 +10,16 @@
   justify-content: center;
   align-items: center;
   padding-top: 20px;
-    #contacto-container{
+  #contacto-container {
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;  
-  
-    .text-container{
+    gap: 40px;
+
+    .text-container {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -33,7 +33,7 @@
       align-items: center;
       border-radius: 5px;
       position: relative;
-      .img-flecha{
+      .img-flecha {
         position: absolute;
         transform: rotate(45deg);
         height: 100px;
@@ -42,7 +42,7 @@
         right: 20px;
       }
     }
-    .form{
+    .form {
       background-color: $color-gris;
       width: 90%;
       max-width: 500px;
@@ -53,61 +53,59 @@
       padding: 10px 15px;
       color: $color-blanco;
       gap: 10px;
-      input{
+      input {
         border: none;
         padding-left: 5px;
         border-bottom: 2px solid $color-azul;
         font-weight: 700;
-        &:focus{
+        &:focus {
           background-color: $color-azul;
           color: white;
-          &::placeholder{
+          &::placeholder {
             color: white;
           }
         }
       }
-      textarea{
+      textarea {
         max-width: 100%;
         min-width: 100%;
         max-height: 150px;
         min-height: 100px;
       }
-      .btnform-container{
+      .btnform-container {
         display: flex;
         justify-content: center;
         align-items: center;
-        button{
+        button {
           width: 200px;
         }
-      }    
-    }  
+      }
+    }
   }
 }
 
-
-@media screen and (min-width: 920px){
-  #contacto{
-    height: 700px;  
+@media screen and (min-width: 920px) {
+  #contacto {
+    height: 700px;
     background-position: left;
-    #contacto-container{   
-    flex-direction: row;
-    
-    .text-container{
-      height: 250px;
-      width: 350px;
-      font-size: 25px;
-      padding: 0px 10px;  
-      .img-flecha{
-        transform: rotate(-45deg);
-        top:-70px;
-        right: -20px;
-      } 
-    }
-    .form{
-      width: 500px;
-      height: 400px;
-    }
-    }
-  }  
-}
+    #contacto-container {
+      flex-direction: row;
 
+      .text-container {
+        height: 250px;
+        width: 350px;
+        font-size: 25px;
+        padding: 0px 10px;
+        .img-flecha {
+          transform: rotate(-45deg);
+          top: -70px;
+          right: -20px;
+        }
+      }
+      .form {
+        width: 500px;
+        height: 400px;
+      }
+    }
+  }
+}
